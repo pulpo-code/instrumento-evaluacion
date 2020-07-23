@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Intrumento | Login</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro" rel="stylesheet">
+	<link rel="shorcut icon" type="image/x-icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	
+	<div class="logo">
+		<a href="vista/home.html"><img src="img/logo_upsjb.png" alt="logo de Upsjb" height="50px"></a>
+	</div>
+	<div class="contenedor">
+		<form action="php/logeado.php" class="formulario" id="formulario" name="formulario" method="post">
+
+			<div class="logo_upsjb">
+				<img src="img/login/upsjb_red.jpg" alt="Logo san juan bautista" width="300px">
+			</div>
+
+			<div class="contenedor-inputs">
+				<input type="text" name="correo" placeholder="Correo">
+				<input type="password" name="password" placeholder="Contraseña">
+				
+				<ul class="error" id="error"></ul>
+         
+			<div class="con_login">
+				<input type="submit" class="btn_login" value="Iniciar sesión">
+			</div>
+
+		</form>
+	</div>
+	<script src="js/login.js"></script>
+</body>
+</html>
